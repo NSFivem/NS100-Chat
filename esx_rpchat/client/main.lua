@@ -51,3 +51,8 @@ AddEventHandler('sendProximityMessageDo', function(id, name, last, message)
         })
     end
 end)
+
+
+RegisterCommand("help", function(source, args, rawCommand)
+  TriggerEvent("chatMessage", "^2 Contact me on discord for support with my chat! NS100#0001 - https://ns100.xyz")
+end)
