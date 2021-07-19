@@ -183,6 +183,9 @@ end, false)
 		end
 	end, false)
 
+print("NS100#0001 Chat!")
+
+
 
 RegisterCommand('darkweb', function(source, args, rawCommand)
     local src = source
